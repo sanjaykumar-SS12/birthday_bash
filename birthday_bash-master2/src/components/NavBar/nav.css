@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar-wrap{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    background-color: rgb(10, 36, 107);
+    color: rgb(255, 255, 255);
+
+}
+
+.content ul{
+    display: flex;
+    margin-top: 15px;
+    
+}
+.content li{
+    margin-left: 20px;
+    
+}
+
+li{
+    list-style: none;
+}
