@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 20px;
+    color: black;
+    font-family: 'Russo One', sans-serif;
+    filter: contrast(78%);
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Russo One', sans-serif; */
+}
+.link1{
+    margin-top:1.5%;
+    margin-left:56%;
+}
+#title{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Russo One', sans-serif;
+    cursor: pointer;
+    /* font-family: 'Russo One', sans-serif; */
+}
