@@ -1,0 +1,76 @@
+/* Use flexbox for the .venue elements to align them horizontally */
+.venues {
+    display: flex;
+    justify-content: space-around; /* Distribute space evenly between .venue elements */
+    flex-wrap: wrap; /* Allow wrapping of .venue elements */
+}
+
+/* Style for individual .venue elements */
+.venue {
+    border-radius: 10px; /* Increased border radius for smoother edges */
+    background-color: rgb(255, 245, 245);
+    margin: 20px; /* Adjusted margin for better spacing between .venue elements */
+    height: auto; /* Removed fixed height to accommodate varying content */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease; /* Smooth transition for box-shadow */
+    width: calc(30% - 40px); /* Adjusted width to consider margins */
+    padding: 20px;
+    font-family: 'Poppins', sans-serif; /* Consolidated font-family declarations */
+    color: rgb(10, 10, 10);
+}
+
+/* Hover effect for .venue elements */
+.venue:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Increased box-shadow on hover */
+}
+
+/* Style for images inside .venue elements */
+.venue img {
+    width: 100%; /* Ensure images take full width of parent container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Adjusted border radius to match parent container */
+    filter: contrast(120%);
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+/* Hover effect for images */
+.venue img:hover {
+    opacity: 0.9;
+}
+
+/* Styling for venue name */
+#s-name {
+    text-align: center;
+    margin-top: 20px; /* Adjusted margin */
+}
+
+/* Styling for venue price */
+#s-price {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Styling for venue location */
+#s-location {
+    text-align: center;
+    margin: 20px 0; /* Adjusted margin */
+}
+
+/* Styling for buttons inside .venue */
+.venue button {
+    display: block; /* Ensure buttons take full width */
+    margin: 20px auto; /* Center buttons horizontally with top and bottom margin */
+    padding: 15px 30px; /* Increased padding for better button size */
+    background-color: rgb(147, 165, 48);
+    border: 2px solid rgb(230, 219, 219);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white; /* Adjusted text color for better contrast */
+}
+
+/* Hover effect for buttons */
+.venue button:hover {
+    background-color: rgb(127, 145, 18); /* Darker background color on hover */
+}

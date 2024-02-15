@@ -1,0 +1,114 @@
+.admin-dashboard {
+    max-width: 1200px; /* Increase max-width */
+    margin: 0 auto;
+    padding: 40px; /* Increase padding */
+    font-family: 'Poppins', sans-serif;
+    color: #333; /* Change text color */
+  }
+  
+  .admin-dashboard h1 {
+    text-align: center;
+    margin-bottom: 30px; /* Add margin bottom */
+    font-size: 2.5em; /* Increase font size */
+  }
+  
+  .admin-dashboard form {
+    margin-bottom: 30px; /* Add margin bottom */
+  }
+  
+  .admin-dashboard input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px; /* Increase margin bottom */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em; /* Adjust font size */
+  }
+  
+  .admin-dashboard button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-dashboard button:hover {
+    background-color: #0056b3;
+  }
+  
+  .party-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px; /* Increase gap */
+  }
+  
+  .party-item {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px; /* Increase border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 250px; /* Increase width */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #444; /* Change background color */
+    padding-top: 60px; /* Increase padding top */
+  }
+  
+  .sidebar-header {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px; /* Add margin bottom */
+    font-size: 1.8em; /* Adjust font size */
+  }
+  
+  .sidebar-menu li {
+    padding: 15px;
+  }
+  
+  .sidebar-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em; /* Adjust font size */
+    display: block;
+  }
+  
+  .sidebar-menu a:hover {
+    background-color: #666; /* Change background color on hover */
+  }
+  
+  .table-container {
+    overflow-x: auto;
+    margin-top: 50px; /* Add margin top */
+  }
+  
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admin-table th, .admin-table td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increase padding */
+    text-align: center; /* Center align text */
+  }
+  
+  .admin-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .admin-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .admin-table tr:hover {
+    background-color: #ddd;
+  }
+  

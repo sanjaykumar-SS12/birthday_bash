@@ -1,0 +1,61 @@
+/* VenueForm.css */
+
+.form-container {
+  width: 70%; /* Adjust width */
+  margin: auto;
+  padding: 20px; /* Add padding */
+  background-color: #f9f9f9; /* Change background color */
+  border-radius: 10px; /* Add border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Change text color */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px; /* Increase margin bottom */
+  color: #333; /* Change text color */
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 12px; /* Increase padding */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #555; /* Change text color */
+}
+
+.form-group select {
+  cursor: pointer;
+}
+
+.form-group input[type="number"],
+.form-group input[type="tel"] {
+  -moz-appearance: textfield;
+}
+
+.form-group button {
+  padding: 12px 24px; /* Increase padding */
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition */
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+}

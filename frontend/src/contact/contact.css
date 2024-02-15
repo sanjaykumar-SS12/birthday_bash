@@ -1,0 +1,94 @@
+.contact-page {
+  background-color: #f7f7f7;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.contact-header h1 {
+  font-size: 2.5em; /* Increase font size */
+  color: rgb(139, 12, 12); /* Change font color */
+}
+
+.contact-main {
+  max-width: 800px; /* Increase max width */
+  margin: 20px auto;
+  padding: 30px; /* Increase padding */
+  background-color: #fff;
+  border-radius: 10px; /* Increase border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Update box shadow */
+}
+
+.contact-form-container {
+  margin-bottom: 30px; /* Increase margin bottom */
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px; /* Increase margin bottom */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 12px; /* Increase padding */
+  margin-bottom: 20px; /* Increase margin bottom */
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Increase border radius */
+}
+
+.contact-form button {
+  background-color: rgb(139, 12, 12); /* Change button color */
+  color: #fff;
+  padding: 12px 24px; /* Increase padding */
+  border: none;
+  border-radius: 8px; /* Increase border radius */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #8b0c0c; /* Darken button color on hover */
+}
+
+.contact-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px; /* Increase max width */
+  margin: 0 auto;
+  padding: 30px; /* Increase padding */
+  color: #333;
+}
+
+.contact-info-left {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.contact-info-left h2 {
+  font-size: 3em; /* Increase font size */
+  color: #000; /* Change font color */
+}
+
+.contact-info-left p {
+  font-size: 1.2em; /* Increase font size */
+  color: #666; /* Change font color */
+}
+
+.contact-info-right {
+  flex: 1;
+}
+
+.google-map-container {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Increase border radius */
+  overflow: hidden;
+}
+
+.google-map {
+  width: 100%;
+  height: 400px;
+  border: 0;
+}
